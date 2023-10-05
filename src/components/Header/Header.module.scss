@@ -1,0 +1,51 @@
+.header {
+    margin: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.logo p{
+    width: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.logo p span{
+    font-size: 32px;
+    color: #FF4D30;
+}
+
+.navLinks ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.navLinks ul li {
+    margin: 0 15px; 
+}
+
+.navLinks ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #1E1E1E;
+}
+
+.navLinks ul li a:hover {
+    color: #FF4D30;
+}
+
+.button {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
