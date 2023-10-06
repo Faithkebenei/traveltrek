@@ -17,7 +17,7 @@ const Header = ({setClicked}) => {
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/models">Vehicle Models</Link></li>
-                    <li><Link to="/testionials">Testimonials</Link></li>
+                    <li><Link to="/testimonials">Testimonials</Link></li>
                     <li><Link to="/team">Our Team</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>

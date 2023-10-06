@@ -12,6 +12,7 @@ import Footer from '../../components/Footer/Footer';
 
 
 import About from "../../components/About/About";
+import Testimonials from "../../components/Testimonials/Testimonials";
 const Home = () => {
     const location = useLocation();
     const history = useHistory();
@@ -33,6 +34,10 @@ const Home = () => {
 
                 <Route exact path="/about" >
                     <About />               
+                </Route>
+
+                <Route exact path="/testimonials" >
+                    <Testimonials />               
                 </Route>
             </Switch>
         </>
