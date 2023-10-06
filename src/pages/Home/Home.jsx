@@ -10,6 +10,8 @@ import HomeTestimonials from "../../components/HomeTestimonials/HomeTestimonials
 import CallSection from "../../components/CallSection/CallSection";
 import Footer from '../../components/Footer/Footer';
 
+
+import About from "../../components/About/About";
 const Home = () => {
     const location = useLocation();
     const history = useHistory();
@@ -30,11 +32,7 @@ const Home = () => {
                 </Route>
 
                 <Route exact path="/about" >
-                    <Header />
-                    <HotDeals />
-                    <HomeTestimonials />
-                    <CallSection />
-                    <Footer />
+                    <About />                    
                 </Route>
             </Switch>
         </>

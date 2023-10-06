@@ -1,0 +1,47 @@
+.header {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    opacity: 84%;
+}
+
+.headerSection {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.words {
+    position: absolute;
+    bottom: 20%;
+    left: 100px;
+}
+
+.words h3{
+    font-size: 42px;
+    letter-spacing: 2px;
+    color: #1E1E1E;
+}

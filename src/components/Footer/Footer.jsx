@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Footer.module.scss'
+import { Link } from 'react-router-dom'
 
 import Logo from '../../components/Logo/Logo'
 
@@ -12,10 +13,10 @@ const Footer = () => {
         <div className={styles.company}>
             <h3>Company</h3>
             <ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Sign Up/ Login</a></li>
-                <li><a href="">Careers</a></li>
-                <li><a href="">Our Team</a></li>
+                <li><Link to="about" >About</Link></li>
+                <li><Link to="login" >Sign Up/ Login</Link></li>
+                <li><Link to="careers" >Careers</Link></li>
+                <li><Link to="team" >Our Team</Link></li>
             </ul>
         </div>
         <div className={styles.workingHours}>
