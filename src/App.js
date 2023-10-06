@@ -1,17 +1,25 @@
 import React from "react";
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import pageUrl from "./routes/pageUrl";
+import {Home} from "./pages/page";
 
-import Home from "./pages/Home/Home"
+const RouteManager = () => {
+  return (
+    <Router>
+      <Switch>
+        <Route path={pageUrl.HOMEPAGE} component={Home} />
+      </Switch>
+    </Router>
+  )
+}
 
 const App = () => {
-
   return (
     <>
-    <Routes>
-      <Route path='/' element={<Home />} />
-    </Routes>
+      <RouteManager />
     </>
   )
 }
 
 export default App;
+

@@ -3,24 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-}
-
-.logo p{
-    width: 50%;
-    font-size: 30px;
-    font-weight: bold;
-    margin-left: 10px;
-}
-
-.logo p span{
-    font-size: 32px;
-    color: #FF4D30;
+    background-color: transparent;
 }
 
 .navLinks ul{

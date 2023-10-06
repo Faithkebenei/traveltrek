@@ -1,28 +1,25 @@
 import React from "react";
+import { useHistory, Link } from 'react-router-dom';
 
 import styles from "./Header.module.scss";
 
 import Button from "../Button/Button";
+import Logo from "../../components/Logo/Logo";
 
-import { FaCarSide } from "react-icons/fa";
-
-
-const Header = () => {
+const Header = ({setClicked}) => {
+    
     return (
         <>
         <div className={styles.header}>
-            <div className={styles.logo}>
-                <FaCarSide size="4rem" color="#FF4D30"/>
-                <p><span>TravelTrek</span> Rentals</p>
-            </div>
+            <Logo />
             <div className={styles.navLinks}>
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Vehicle Models</a></li>
-                    <li><a href="">Testimonials</a></li>
-                    <li><a href="">Our Team</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/about">About</Link></li>
+                    <li><Link to="/models">Vehicle Models</Link></li>
+                    <li><Link to="/testionials">Testimonials</Link></li>
+                    <li><Link to="/team">Our Team</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </div>
             <div className={styles.button}>

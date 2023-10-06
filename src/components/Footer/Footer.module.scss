@@ -1,0 +1,38 @@
+.footer {
+    padding: 40px;
+    display: flex;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+}
+
+.footer h3 {
+    font-size: 18px;
+    color: #1E1E1E;
+}
+
+.company ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.company ul li {
+    margin-top: 20px;
+}
+
+.company ul li a {
+    text-decoration: none;
+    color: #1E1E1E;
+    font-size: 16px;
+}
+
+.company ul li a:hover {
+    color: #FF4D30;
+}
+
+.workingHours p{
+    margin-top: 20px;
+}
+
+.contact p{
+    margin-top: 20px;
+}
