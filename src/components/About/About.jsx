@@ -2,6 +2,10 @@ import React from 'react'
 import styles from './About.module.scss'
 
 import Hero from '../Hero/Hero'
+import WhyUs from '../WhyUs/WhyUs'
+import CallSection from '../CallSection/CallSection'
+import Footer from '../Footer/Footer'
+
 import cars from '../../images/threecars.png'
 
 
@@ -17,6 +21,9 @@ const About = () => {
             <img src={cars} alt="Cars" />
           </div>
         </div>
+        <WhyUs />
+        <CallSection />
+        <Footer />     
     </div>
   )
 }

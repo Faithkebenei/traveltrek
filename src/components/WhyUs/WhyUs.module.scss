@@ -1,0 +1,20 @@
+.whyUs {
+    background-color: #FBF6F6;
+    padding: 40px;
+}
+
+.headingText {
+    text-align: center;
+}
+
+.heading {
+    color: #1E1E1E;
+    font-size: 24px;
+}
+
+.cards {
+    padding: 40px 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
