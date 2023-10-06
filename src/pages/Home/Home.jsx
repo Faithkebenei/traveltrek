@@ -5,6 +5,7 @@ import HomeMenu from "../../components/HomeMenu/HomeMenu";
 import BookMenu from "../../components/BookMenu/BookMenu";
 import RentSteps from "../../components/RentSteps/RentSteps";
 import HotDeals from "../../components/HotDeals/HotDeals";
+import HomeTestimonials from "../../components/HomeTestimonials/HomeTestimonials";
 
 const Home = () => {
     function fibonacci(n) {
@@ -78,6 +79,7 @@ const Home = () => {
         <BookMenu />  
         <RentSteps />
         <HotDeals />
+        <HomeTestimonials />
         </>
     )
 }
