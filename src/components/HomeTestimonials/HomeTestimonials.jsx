@@ -3,9 +3,9 @@ import styles from './HomeTestimonials.module.scss'
 
 import TestimonialCard from '../TestimonialCard/TestimonialCard'
 
-import faith from '../../images/faith.png';
-import arianna from '../../images/arianna.png';
-import ryan from '../../images/ryan.png';
+import faith from '../../images/faith.jpg';
+import arianna from '../../images/arianna.jpg';
+import ryan from '../../images/ryan.jpg';
 
 const HomeTestimonials = () => {
   return (

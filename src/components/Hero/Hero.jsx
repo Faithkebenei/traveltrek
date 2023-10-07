@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Hero.module.scss'
 import Header from '../Header/Header'
+//import range from '../../images/range.png'
 import range from '../../images/rangeoverlay.png'
 
 const Hero = ( {text, location}) => {

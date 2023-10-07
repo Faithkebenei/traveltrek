@@ -12,7 +12,11 @@ import Footer from '../../components/Footer/Footer';
 
 
 import About from "../../components/About/About";
+import Models from "../../components/Models/Models";
 import Testimonials from "../../components/Testimonials/Testimonials";
+import Team from "../../components/Team/Team";
+import Contact from "../../components/Contact/Contact";
+
 const Home = () => {
     const location = useLocation();
     const history = useHistory();
@@ -36,8 +40,20 @@ const Home = () => {
                     <About />               
                 </Route>
 
+                <Route exact path="/models" >
+                    <Models />               
+                </Route> 
+
                 <Route exact path="/testimonials" >
                     <Testimonials />               
+                </Route>
+
+                <Route exact path="/team" >
+                    <Team />               
+                </Route>
+
+                <Route exact path="/contact" >
+                    <Contact />               
                 </Route>
             </Switch>
         </>
