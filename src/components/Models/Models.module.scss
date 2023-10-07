@@ -1,0 +1,37 @@
+.headingSection {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.heading {
+    color: #1E1E1E;
+    font-size: 24px;
+}
+
+.text{
+    width: 50rem;
+    line-height: 170%;
+    color: #1E1E1E;
+}
+
+
+.fleets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.fleet {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.card {
+    margin: 0 30px;
+}

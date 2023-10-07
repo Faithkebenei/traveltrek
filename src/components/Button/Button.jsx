@@ -2,12 +2,13 @@ import React from "react";
 
 import styles from "./Button.module.scss";
 
-const Button = ({backgroundColor, color, text, border, clicked, width}) => {
+const Button = ({backgroundColor, color, text, border, clicked, width, borderRadius}) => {
     const buttonStyles = {
         backgroundColor: backgroundColor,
         color: color,    
         border: border,
-        width: width,   
+        width: width, 
+        borderRadius: borderRadius  
     }
     return (
         <>

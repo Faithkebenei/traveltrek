@@ -1,0 +1,64 @@
+.card {
+    width: 18rem;
+    height: 24rem;
+    border: 2px solid #FF4D30;
+    padding: .5rem 1rem;
+    box-sizing: border-box;
+}
+
+.image {
+    height: 11rem;
+    width: 16rem;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.basicInfo {
+    color: #1E1E1E;
+    font-size: 14px;
+    border-bottom: 1px solid #1E1E1E;
+    margin-bottom: 10px;
+}
+.topWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name {
+    width: 65%;
+}
+
+.price {
+    width: 35%;
+}
+
+.infoWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftInfo {
+    width: 65%;
+}
+
+.rightInfo {
+    width: 35%;
+}
+
+.star {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.icon {
+    color: #DDA005;
+    fill: currentColor;
+}
+

@@ -75,13 +75,6 @@ const BookMenu = () => {
                             <label for="">Drop-off</label>
                             </div>  
                             <input type="date" />
-                            {/* <select name="" id="">
-                                <option selected disabled>--Select--</option>
-                                <option value="1">Nairobi</option>
-                                <option value="2">Eldoret</option>
-                                <option value="3">Mombasa</option>
-                                <option value="4">Kisumu</option>
-                            </select> */}
                         </div>
 
                         <div className={styles.component}>
@@ -89,7 +82,7 @@ const BookMenu = () => {
                             <FaCalendarDays color="#FF4D30" size="1rem" />
                             <label for="">Pick-up</label>
                             </div>  
-                            <Button text="Search" color="#fff" backgroundColor="#FF4D30" border="2px solid #FF4D30" width="100%"/>
+                            <Button text="Search" color="#fff" backgroundColor="#FF4D30" border="2px solid #FF4D30" width="100%" borderRadius="8px" />
                         </div>
 
                     </div>
